@@ -13,11 +13,11 @@ const Layout: React.FC<LayoutProps> = ({ children, className = '' }) => {
         
         {/* 1. The Fluid Art Image (bg.png) */}
         {/* CRITICAL FIX: Use '/bg.png' (absolute path) instead of 'bg.png' so it loads from public root on all subpages. */}
-        {/* Added a fallback color/gradient in case the image is missing or loading */}
+        {/* Added a fallback color/gradient in case the image is missing or loading 
         <div 
           className="absolute inset-0 bg-cover bg-no-repeat bg-contain"
           style={{ backgroundImage: "url('/bg.png')" }}
-        />
+        />*/}
 
         
         {/* 4. Vignette to focus center */}
