@@ -1,0 +1,8 @@
+{
+  "name": "Hireprep --12.7",
+  "description": "A multimodal AI interview coach offering realistic simulations and behavioral analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
